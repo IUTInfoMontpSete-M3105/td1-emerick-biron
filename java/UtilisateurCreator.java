@@ -1,70 +1,26 @@
-
-import java.util.*;
-
-/**
- * 
- */
 public class UtilisateurCreator {
+    protected String nom;
+    protected String prenom;
+    protected String adressePostale;
+    protected String email;
 
-    /**
-     * Default constructor
-     */
-    public UtilisateurCreator() {
+    public UtilisateurCreator setNom(String nom) {
+        this.nom = nom;
+        return this;
     }
 
-    /**
-     * 
-     */
-    private String nom;
-
-    /**
-     * 
-     */
-    private String prenom;
-
-    /**
-     * 
-     */
-    private String adressePostale;
-
-    /**
-     * 
-     */
-    private String email;
-
-    /**
-     * 
-     */
-    public void setNom() {
-        // TODO implement here
+    public UtilisateurCreator setPrenom(String prenom) {
+        this.prenom = prenom;
+        return this;
     }
 
-    /**
-     * 
-     */
-    public void setPrenom() {
-        // TODO implement here
+    public UtilisateurCreator setAdressePostale(String adressePostale) {
+        this.adressePostale = adressePostale;
+        return this;
     }
 
-    /**
-     * 
-     */
-    public void setAdressePostale() {
-        // TODO implement here
+    public UtilisateurCreator setEmail(String email) {
+        this.email = email;
+        return this;
     }
-
-    /**
-     * 
-     */
-    public void setEmail() {
-        // TODO implement here
-    }
-
-    /**
-     * 
-     */
-    public void createUtilisateur() {
-        // TODO implement here
-    }
-
 }

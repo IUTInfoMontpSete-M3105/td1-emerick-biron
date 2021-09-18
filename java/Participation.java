@@ -1,39 +1,18 @@
-
+import java.io.File;
 import java.util.*;
 
-/**
- * 
- */
 public class Participation {
 
-    /**
-     * Default constructor
-     */
+    private int NTP;
+    private File Certificat;
+
     public Participation() {
     }
 
-    /**
-     * 
-     */
-    private int NTP;
-
-    /**
-     * 
-     */
-    private file Certificat;
-
-
-
-    /**
-     * @param note
-     */
-    public void updateParticipation(void note) {
+    public void updateParticipation(int note) {
         // TODO implement here
     }
 
-    /**
-     * 
-     */
     public void delivrerCertificat() {
         // TODO implement here
     }

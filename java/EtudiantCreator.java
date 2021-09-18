@@ -1,34 +1,12 @@
-
-import java.util.*;
-
-/**
- * 
- */
-public class EtudiantCreator extends UtilisateurCreator {
-
-    /**
-     * Default constructor
-     */
-    public EtudiantCreator() {
-    }
-
-    /**
-     * 
-     */
+public class EtudiantCreator extends UtilisateurCreator{
     private String ine;
 
-    /**
-     * 
-     */
-    public void setIne() {
-        // TODO implement here
+    public EtudiantCreator setIne(String ine) {
+        this.ine = ine;
+        return this;
     }
 
-    /**
-     * 
-     */
-    public void createEtudiant() {
-        // TODO implement here
+    public Etudiant createEtudiant() {
+        return new Etudiant(nom, prenom, adressePostale, email, ine);
     }
-
 }

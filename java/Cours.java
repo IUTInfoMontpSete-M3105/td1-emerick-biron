@@ -1,59 +1,28 @@
-
+import java.io.File;
 import java.util.*;
 
-/**
- * 
- */
 public class Cours {
 
-    /**
-     * Default constructor
-     */
+    public Enseignant CDC;
+    private String nom;
+
+    private int semestre;
+
     public Cours() {
     }
 
-    /**
-     * 
-     */
-    private String nom;
-
-    /**
-     * 
-     */
-    private int semestre;
-
-    /**
-     * 
-     */
-    public Enseignant CDC;
-
-
-
-
-    /**
-     * @param doc
-     */
-    public void uploadDocument(void doc) {
+    public void uploadDocument(File document) {
         // TODO implement here
     }
 
-    /**
-     * @param ens
-     */
-    public void informerEnseignant(void ens) {
+    public void informerEnseignant(Enseignant enseignant) {
         // TODO implement here
     }
 
-    /**
-     * @param note
-     */
-    public void informerEtudiant(void note) {
+    public void informerEtudiant(int note) {
         // TODO implement here
     }
 
-    /**
-     * 
-     */
     public void delivrerCertificat() {
         // TODO implement here
     }

@@ -1,46 +1,18 @@
-
-import java.util.*;
-
-/**
- * 
- */
 public class EnseignantCreator extends UtilisateurCreator {
-
-    /**
-     * Default constructor
-     */
-    public EnseignantCreator() {
-    }
-
-    /**
-     * 
-     */
     private int numen;
-
-    /**
-     * 
-     */
     private int harpege;
 
-    /**
-     * 
-     */
-    public void setNumen() {
-        // TODO implement here
+    public EnseignantCreator setNumen(int numen) {
+        this.numen = numen;
+        return this;
     }
 
-    /**
-     * 
-     */
-    public void setHarpege() {
-        // TODO implement here
+    public EnseignantCreator setHarpege(int harpege) {
+        this.harpege = harpege;
+        return this;
     }
 
-    /**
-     * 
-     */
-    public void createEnseignant() {
-        // TODO implement here
+    public Enseignant createEnseignant() {
+        return new Enseignant(nom, prenom, adressePostale, email, numen, harpege);
     }
-
 }

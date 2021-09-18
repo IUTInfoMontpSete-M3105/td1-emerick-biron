@@ -1,7 +1,4 @@
 
-/**
- * 
- */
 public enum EtatParticipation {
     CREE,
     DELIVRE,
