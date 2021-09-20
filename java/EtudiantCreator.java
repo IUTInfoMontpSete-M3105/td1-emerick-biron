@@ -1,34 +1,44 @@
+import java.util.List;
 
-import java.util.*;
-
-/**
- * 
- */
-public class EtudiantCreator extends UtilisateurCreator {
-
-    /**
-     * Default constructor
-     */
-    public EtudiantCreator() {
-    }
-
-    /**
-     * 
-     */
+public class EtudiantCreator {
+    private String nom;
+    private String prenom;
+    private String adressePostale;
+    private String email;
     private String ine;
+    private List<Participation> participations;
 
-    /**
-     * 
-     */
-    public void setIne() {
-        // TODO implement here
+    public EtudiantCreator setNom(String nom) {
+        this.nom = nom;
+        return this;
     }
 
-    /**
-     * 
-     */
-    public void createEtudiant() {
-        // TODO implement here
+    public EtudiantCreator setPrenom(String prenom) {
+        this.prenom = prenom;
+        return this;
     }
 
+    public EtudiantCreator setAdressePostale(String adressePostale) {
+        this.adressePostale = adressePostale;
+        return this;
+    }
+
+    public EtudiantCreator setEmail(String email) {
+        this.email = email;
+        return this;
+    }
+
+    public EtudiantCreator setIne(String ine) {
+        this.ine = ine;
+        return this;
+    }
+
+    public EtudiantCreator setParticipations(List<Participation> participations) {
+        this.participations = participations;
+        return this;
+    }
+
+    public Etudiant createEtudiant() {
+        return new Etudiant(nom, prenom, adressePostale, email, ine, participations);
+    }
 }

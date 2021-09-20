@@ -13,8 +13,9 @@ public class Enseignant extends Utilisateur {
     private List<Cours> coursResponsable;
     private List<Rendu> rendus;
 
-    public Enseignant(int numen, int harpege, List<Cours> coursEnseignes, List<Cours> coursResponsable,
-                      List<Rendu> rendus) {
+    public Enseignant(String nom, String prenom, String adressePostale, String email, int numen, int harpege,
+                      List<Cours> coursEnseignes, List<Cours> coursResponsable, List<Rendu> rendus) {
+        super(nom, prenom, adressePostale, email);
         this.numen = numen;
         this.harpege = harpege;
         this.coursEnseignes = coursEnseignes;

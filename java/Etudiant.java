@@ -5,7 +5,9 @@ public class Etudiant extends Utilisateur {
     private String ine;
     private List<Participation> participations;
 
-    public Etudiant(String ine, List<Participation> participations) {
+    public Etudiant(String nom, String prenom, String adressePostale, String email, String ine,
+                    List<Participation> participations) {
+        super(nom, prenom, adressePostale, email);
         this.ine = ine;
         this.participations = participations;
     }
