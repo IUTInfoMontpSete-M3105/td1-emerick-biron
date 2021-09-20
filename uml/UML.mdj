@@ -11048,12 +11048,12 @@
 										"$ref": "AAAAAAF7yfPfQhUBJKY="
 									},
 									"font": "Arial;13;0",
-									"left": 175,
-									"top": 380,
+									"left": 144,
+									"top": 392,
 									"width": 35.75634765625,
 									"height": 13,
-									"alpha": 0.5235987755982988,
-									"distance": 30,
+									"alpha": -0.43323325506687027,
+									"distance": 40.311288741492746,
 									"hostEdge": {
 										"$ref": "AAAAAAF7yfPfQhUERj4="
 									},
@@ -11114,14 +11114,16 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 495,
+									"left": 424,
 									"top": 667,
+									"width": 143.4443359375,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
 									"hostEdge": {
 										"$ref": "AAAAAAF7yfPfQhUERj4="
-									}
+									},
+									"text": "+CoursEnResponsabilite"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -12586,15 +12588,17 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 64,
+									"left": 32,
 									"top": 668,
+									"width": 65.7490234375,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
 									"hostEdge": {
 										"$ref": "AAAAAAF77cvJ90s+Iss="
 									},
-									"edgePosition": 1
+									"edgePosition": 1,
+									"text": "«ArrayList»"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -12691,18 +12695,17 @@
 									"model": {
 										"$ref": "AAAAAAF77cvJ90s8ZBU="
 									},
-									"visible": false,
 									"font": "Arial;13;0",
-									"left": 487,
-									"top": 683,
-									"width": 13.83154296875,
+									"left": 401,
+									"top": 712,
+									"width": 143.4443359375,
 									"height": 13,
-									"alpha": -0.5235987755982988,
-									"distance": 30,
+									"alpha": 0.2720470093136771,
+									"distance": 48.76474136094644,
 									"hostEdge": {
 										"$ref": "AAAAAAF77cvJ90s+Iss="
 									},
-									"text": "+*"
+									"text": "+coursCrees"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -12733,6 +12736,7 @@
 									"model": {
 										"$ref": "AAAAAAF77cvJ90s8ZBU="
 									},
+									"visible": false,
 									"font": "Arial;13;0",
 									"left": 494,
 									"top": 711,
@@ -13786,14 +13790,16 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 516,
+									"left": 445,
 									"top": 604,
+									"width": 143.4443359375,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
 									"hostEdge": {
 										"$ref": "AAAAAAF77ga2q2jG/0A="
-									}
+									},
+									"text": "+CoursEnResponsabilite"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -16832,10 +16838,10 @@
 								"_parent": {
 									"$ref": "AAAAAAF77cvJ9ks6a/Y="
 								},
+								"name": "coursCrees",
 								"reference": {
 									"$ref": "AAAAAAF7yeu0HRAKCXc="
-								},
-								"multiplicity": "*"
+								}
 							}
 						},
 						{
@@ -16988,7 +16994,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF7+AiIMR9wG6Q="
 									},
-									"name": "ens"
+									"name": "ens",
+									"type": ""
 								}
 							]
 						},
@@ -20548,9 +20555,9 @@
 														"$ref": "AAAAAAF77cK+ilALIl8="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 13,
-													"width": 126.734375,
+													"width": 112.1728515625,
 													"height": 13,
 													"text": "DiagrammeSequence"
 												},
@@ -20563,7 +20570,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -22287,9 +22294,9 @@
 														"$ref": "AAAAAAF77dezkE/n91I="
 													},
 													"font": "Arial;13;0",
-													"left": 59.578125,
+													"left": 58.11181640625,
 													"top": 109,
-													"width": 81.20263671875,
+													"width": 74.658203125,
 													"height": 13,
 													"text": "1 .. nbDevoirs"
 												},
@@ -22302,7 +22309,7 @@
 													"font": "Arial;13;1",
 													"left": 29,
 													"top": 109,
-													"width": 25.578125,
+													"width": 24.11181640625,
 													"height": 13,
 													"text": "loop"
 												},
@@ -23422,7 +23429,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF77cK+iVAIunU="
 							},
-							"name": "Role6"
+							"name": "Role6",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
