@@ -1,20 +1,10 @@
-
 import java.util.*;
 
-/**
- * 
- */
 public class Administrateur extends Utilisateur {
 
-    /**
-     * Default constructor
-     */
+    private List<Cours> coursCrees;
+
     public Administrateur() {
     }
-
-    /**
-     * 
-     */
-    public Cours coursCrees;
 
 }

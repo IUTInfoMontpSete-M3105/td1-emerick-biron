@@ -1,62 +1,41 @@
-
+import java.io.File;
+import java.time.LocalDate;
 import java.util.*;
 
-/**
- * 
- */
 public class Rendu {
 
-    /**
-     * Default constructor
-     */
-    public Rendu() {
-    }
-
-    /**
-     * 
-     */
     private LocalDate dateLimite;
-
-    /**
-     * 
-     */
-    private Document doc;
-
-    /**
-     * 
-     */
+    private File doc;
     private int points;
+    private EtatRendu etatRendu;
+    private Participation participation;
+    private Devoir devoir;
+    private Enseignant correcteur;
 
-
-
-
-
-    /**
-     * @param doc
-     */
-    public void setDocument(void doc) {
-        // TODO implement here
+    public Rendu(LocalDate dateLimite, File doc, int points, Participation participation, Devoir devoir,
+                 Enseignant correcteur) {
+        this.dateLimite = dateLimite;
+        this.doc = doc;
+        this.points = points;
+        this.participation = participation;
+        this.devoir = devoir;
+        this.correcteur = correcteur;
     }
 
-    /**
-     * @param ens
-     */
-    public void affecterEnseignant(void ens) {
-        // TODO implement here
+    public void setDocument(File doc) {
+        this.doc = doc;
     }
 
-    /**
-     * 
-     */
-    public void getDocument() {
-        // TODO implement here
+    public void affecterEnseignant(Enseignant ens) {
+        correcteur = ens;
     }
 
-    /**
-     * @param note
-     */
-    public void setNote(void note) {
-        // TODO implement here
+    public File getDocument() {
+        return doc;
+    }
+
+    public void setNote(int note) {
+        points = note;
     }
 
 }
