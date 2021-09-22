@@ -1,5 +1,6 @@
+package TD1;
+
 import java.io.File;
-import java.util.*;
 
 public class Participation {
 
